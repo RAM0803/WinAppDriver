@@ -28,7 +28,7 @@ import io.appium.java_client.windows.WindowsDriver;
 
 public class CalculatorTest {
 
-    private static WindowsDriver CalculatorSession = nu;
+    private static WindowsDriver CalculatorSession = null;
     private static WebElement CalculatorResult = null;
     public final Logger logger = Logger.getLogger(this.getClass());
 
